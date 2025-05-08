@@ -209,6 +209,10 @@ html::-webkit-scrollbar-thumb {
     background: var(--dark-color);
 }
 
+.bottom-navbar{
+    display: block;
+}
+
 @media(max-width:768px) {
     .bottom-navbar {
         display: inline-block;
