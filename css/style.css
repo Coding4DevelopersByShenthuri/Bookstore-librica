@@ -192,32 +192,31 @@ html::-webkit-scrollbar-thumb {
     text-align: center;
     background: var(--blue);
     position: fixed;
-    bottom: 0;
+    bottom: 30px;
     left: 0;
     right: 0;
     z-index: 1000;
-    display: none;
+    display: none; 
 }
 
 .bottom-navbar a {
     font-size: 2.5rem;
     padding: 2rem;
     color: #fff;
+    text-decoration: none;
 }
 
 .bottom-navbar a:hover {
     background: var(--dark-color);
 }
 
-.bottom-navbar{
-    display: block;
-}
-
-@media(max-width:768px) {
+/* Show only on small screens */
+@media (max-width: 768px) {
     .bottom-navbar {
-        display: inline-block;
+        display: block;
     }
 }
+
 
 /*----- login form start --------*/
 .login-form-container {
